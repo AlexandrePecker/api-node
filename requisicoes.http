@@ -1,0 +1,14 @@
+POST http://localhost:2222/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de Docker"
+}
+
+###
+
+GET http://localhost:2222/courses
+
+###
+
+GET http://localhost:2222/courses/2
