@@ -2,7 +2,7 @@ POST http://localhost:2222/courses
 Content-Type: application/json
 
 {
-    "title": "Curso de Docker"
+    "title": "Curso de Docker 2"
 }
 
 ###
@@ -11,4 +11,4 @@ GET http://localhost:2222/courses
 
 ###
 
-GET http://localhost:2222/courses/2
+GET http://localhost:2222/courses/33df8420-74df-4f5c-93a0-90e4903420af
